@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Noise</title>
+    <style>
+        html {
+            width: 1044px;
+            margin: auto;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        .fbm {
+            margin-left: -3px;
+        }
+
+        #warped2d { 
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="random1d"></div>
+    <div id="random2d"></div>
+
+    <hr />
+
+    <div id="value1d"></div>
+    <div id="value2d"></div>
+
+    <hr />
+
+    <div id="perlin1d"></div>
+    <div id="perlin2d"></div>
+
+    <hr />
+
+    <div id="simplex1d"></div>
+    <div id="simplex2d"></div>
+
+    <hr />
+
+    <div id="worley2df1"></div>
+    <div id="worley2df2"></div>
+
+    <hr />
+
+    <div id="fbm1d1" class="fbm"></div>
+    <div id="fbm1d2" class="fbm"></div>
+    <div id="fbm1d4" class="fbm"></div>
+    <div id="fbm1d8" class="fbm"></div>
+
+    <div id="fbm2d1" class="fbm"></div>
+    <div id="fbm2d2" class="fbm"></div>
+    <div id="fbm2d4" class="fbm"></div>
+    <div id="fbm2d8" class="fbm"></div>
+
+    <hr />
+
+    <div id="ridged1d"></div>
+    <div id="ridged2d"></div>
+
+    <hr />
+
+    <div id="warped2d"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="perlin.js"></script>
+    <script src="noise.js"></script>
+</body>
+</html>
